@@ -7,6 +7,7 @@ class Download(object):
         frame = Frame(master).pack()
         self.link = StringVar()    
         master.title('Download youtube videos')
+        self.intro_label = Label(frame,text="Enter youtube video link ! ",fg="black").pack()
         self.entry_link = Entry(frame,textvariable=self.link).pack()
         self.btn_download = Button(frame,text="Download",fg="red",command=self.download).pack()
 
