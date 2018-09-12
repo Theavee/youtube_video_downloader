@@ -1,2 +1,5 @@
-# youtube_video_downloader
-GUI application, for downloading youtube videos.
+----Avee Chakraborty ----
+--- 
+
+Gui application for downloading youtube videos.
+made with Pytube and tkinter
